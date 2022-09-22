@@ -1,4 +1,4 @@
-
+// Для запуска build сборки используйте команду: gulp --prod, а в режиме разработчика: gulp
 const {src, dest, series, watch} = require('gulp');
 const concat = require('gulp-concat');
 const htmlMin = require('gulp-htmlmin');
